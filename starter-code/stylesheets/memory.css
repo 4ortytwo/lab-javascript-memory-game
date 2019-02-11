@@ -1,40 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900|Dosis:300,400,600,700,800|Droid+Sans:400,700|Lato:300,400,700,900|PT+Sans:400,700|Ubuntu:300,400,500,700|Open+Sans:400,300,600,700|Roboto:400,300,500,700,900|Roboto+Condensed:400,300,700|Open+Sans+Condensed:300,700|Work+Sans:400,300,700|Play:400,700|Maven+Pro:400,500,700,900&subset=latin,latin-ext);
+
 html {
   background: url("../img/background.jpg") no-repeat;
   background-size: cover;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 #memory_board {
-  background:#dddddd;
-	width:800px;
-	height:540px;
-	padding:70px;
-	margin:0px auto;
+  background: #dddddd;
+  width: 800px;
+  height: 540px;
+  padding: 70px;
+  margin: 0px auto;
   border-radius: 84px;
-  box-shadow: inset 0px 0px 20px -6px rgba(97,89,97,1);
+  box-shadow: inset 0px 0px 20px -6px rgba(97, 89, 97, 1);
 }
 
 
 .card .back {
   background-color: #456783;
-	width:71px;
-	height:71px;
-	float:left;
-	margin:10px;
-	padding:20px;
-	font-size:64px;
+  width: 71px;
+  height: 71px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  font-size: 64px;
 }
+
 .card .front.blocked,
 .card .back.blocked {
   pointer-events: none;
 }
 
 #score {
-  background-color: rgba(215, 44, 44, 0.8);;
+  background-color: rgba(215, 44, 44, 0.8);
+  ;
   border-radius: 8px;
   font-size: 30px;
   font-family: Arial;
-  width:200px;
+  width: 200px;
   padding: 20px;
   padding-top: 0;
   margin-left: 75%;
